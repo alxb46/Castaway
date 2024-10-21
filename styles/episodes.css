@@ -1,0 +1,153 @@
+.episodes-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.episodes-container{
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Episodes header */
+.episodes-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.episodes-header-title{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 124%;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin: 0;
+}
+
+
+.episodes-header-button{
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    background: #118da8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.episodes-header-button-text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    margin: 0;
+    color: #fff;
+}
+
+/* Episodes */
+
+.episodes{
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.episode{
+    border-radius: 32px;
+    width: 1300px;
+    height: 545px;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.episode-body{
+    margin: 40px 40px 40px 40px;
+    width: 1220px;
+    height: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.episode-body-img{
+    max-width: 389px;
+    max-height: 465px;
+}
+
+.episode-body-img > img {
+    width: fit-content;
+}
+
+.episode-body-decription{
+    width: 778px;
+    height: 465px;
+}
+
+.episode-body-decription-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    width: 73px;
+    height: 27px;
+    background: #191919;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.episode-body-decription-number{
+    margin: 0;
+    margin-top: 48px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #118da8;
+}
+
+.episode-body-decription-title{
+    margin: 0;
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 110%;
+    letter-spacing: 0.1em;
+
+    color: #fff;
+}
+
+.episode-body-decription-text{
+    margin: 0;
+    margin-bottom: 28px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.001em;
+    color: rgba(255, 255, 255, 0.7);
+    display: grid;
+	align-items: center;
+}
+
+.episode-body-decription-button{
+    border-radius: 6px;
+    border: 0;
+    width: 208px;
+    height: 51px;
+    background: #118da8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 18px;
+}
